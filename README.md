@@ -7,7 +7,7 @@
 
 <h2 style="color:#FF6347;">🌟 About This Project</h2>
 
-During my final semester of my **Master’s in Computer Science**, I developed this **thesis-level project**, which is my **only coding-intensive master’s project**. The focus is on **Network Function Virtualization (NFV)**, specifically **Service Function Chain (SFC) placement** and simulation.  
+During my final semester of my **Master’s in Computer Science**, I developed this **thesis-level project**,  The focus is on **Network Function Virtualization (NFV)**, specifically **Service Function Chain (SFC) placement** and simulation.  
 
 The objective was to **analyze real network traffic**, generate candidate network paths, and **optimize the placement of Virtual Network Functions (VNFs)** to improve **network efficiency and performance**.
 
