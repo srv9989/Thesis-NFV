@@ -1,76 +1,60 @@
-**Network Function Virtualization (NFV) — SFC Placement & Simulation**
+<h1 style="color:#1E90FF;">🌐 Network Function Virtualization (NFV) — SFC Placement & Simulation</h1>
 
-**Master’s Thesis Project (Final Semester)**
-**Contributor**: Sri Sai Rajesh
+**Master’s Thesis Project (Final Semester)**  
+**Contributor:** Sri Sai Rajesh  
 
-🌟 About This Project
+---
 
-During my final semester of my Master’s in Computer Science, I worked on this thesis-level project focusing on Network Function Virtualization (NFV).
-The goal was to analyze real network traffic, generate candidate network paths, and optimize the placement of Virtual Network Functions (VNFs) to improve network efficiency and performance.
+<h2 style="color:#FF6347;">🌟 About This Project</h2>
 
-I personally contributed to:
+During my final semester of my **Master’s in Computer Science**, I developed this **thesis-level project**, which is my **only coding-intensive master’s project**. The focus is on **Network Function Virtualization (NFV)**, specifically **Service Function Chain (SFC) placement** and simulation.  
 
-Data preprocessing and flow aggregation from packet captures
+The objective was to **analyze real network traffic**, generate candidate network paths, and **optimize the placement of Virtual Network Functions (VNFs)** to improve **network efficiency and performance**.
 
-Designing network topologies and defining VNFs with CPU and bandwidth constraints
+Key contributions include:  
 
-Developing candidate path algorithms for Service Function Chains (SFCs)
+- **Data preprocessing** and *flow aggregation* from packet captures  
+- **Designing network topologies** and defining VNFs with CPU and bandwidth constraints  
+- **Developing candidate path algorithms** for Service Function Chains (SFCs)  
+- **Implementing placement algorithms:**  
+  - **Greedy Approach:** Fast, heuristic-based placement to quickly find near-optimal solutions in large networks  
+  - **Dynamic Programming (DP) Approach:** Guarantees optimal placement by evaluating multiple combinations efficiently, ideal for constrained resources  
+  - **MILP (Mixed-Integer Linear Programming):** Exact optimization for benchmarking  
+- **Visualization and analysis** of results to compare different placement strategies  
 
-Implementing placement algorithms (Greedy, Dynamic Programming, and MILP)
+This project uniquely **bridges theory and practical coding**, demonstrating my ability to work with **real network traffic, advanced optimization algorithms, and large datasets**.
 
-Visualization and analysis of results to compare different placement strategies
+---
 
-This project reflects a combination of research, coding, and practical problem-solving, bridging theoretical concepts with real-world network simulation.
+<h2 style="color:#32CD32;">🧰 Key Skills & Technologies Used</h2>
 
-🧰 Key Skills & Technologies Used
+- **Programming & Analysis:** Python, Pandas, NumPy  
+- **Network Simulation:** NetworkX, Packet capture analysis  
+- **Optimization & Algorithms:** *Greedy heuristics*, *Dynamic Programming*, *Mixed-Integer Linear Programming (PuLP)*  
+- **Visualization:** Matplotlib, Seaborn  
+- **Research Output:** Full thesis report and presentation slides  
 
-Programming & Analysis: Python, Pandas, NumPy
+---
 
-Network Simulation: NetworkX, packet capture analysis
+<h2 style="color:#FFA500;">📂 Repository Structure</h2>
 
-Optimization & Algorithms: Greedy heuristics, Dynamic Programming, Mixed-Integer Linear Programming (PuLP)
+- **RAJESH.ipynb** — Interactive notebook with all code, simulations, and analysis  
+- **Rajesh_SFC_Final_Thesis_Report.pdf** — Full thesis report detailing methodology and results  
+- **Rajesh_PPT_25-11-2025.pptx** — Presentation slides summarizing research  
+- **packets.csv, packets.pcapng** — Sample network packet data used for flow aggregation  
 
-Visualization: Matplotlib, Seaborn
+---
 
-Research Output: Full thesis report and presentation slides
+<h2 style="color:#1E90FF;">🚀 How to Run</h2>
 
-📂 Repository Structure
-
-RAJESH.ipynb — Interactive notebook with all code, simulations, and analysis
-
-Rajesh _SFC _Final _Thesis_Report.pdf — Full thesis report detailing methodology and results
-
-Rajesh_PPT 25‑11‑2025 ‑ Copy.pptx — Presentation slides summarizing research
-
-packets.csv, packets.pcapng — Sample network packet data used for flow aggregation
-
-🚀 How to Run
-
-Clone the repository
-
+**1. Clone the repository:**  
+```bash
 git clone https://github.com/srv9989/Thesis-NFV.git
 cd Thesis-NFV
-
-
-Install Python dependencies
+2. Install Python dependencies:
 
 pip install pandas numpy networkx matplotlib seaborn pulp
-
-
-Open the notebook
+3. Open the notebook:
 
 jupyter notebook RAJESH.ipynb
-
-
-Run the notebook cells sequentially to reproduce all simulations, flow aggregation, and placement evaluations.
-
-
-
-📌 Why This Project Stands Out
-
-Combines research-level problem-solving with hands-on coding
-
-Demonstrates ability to handle real network traffic and large datasets
-
-Showcases optimization and algorithm design skills for NFV and SFC
-
+4. Run the notebook cells sequentially to reproduce all simulations, flow aggregation, and placement evaluations.
