@@ -1,7 +1,7 @@
-Network Function Virtualization (NFV) — SFC Placement & Simulation
+**Network Function Virtualization (NFV) — SFC Placement & Simulation**
 
-Master’s Thesis Project (Final Semester)
-Contributor: Sri Sai Rajesh
+**Master’s Thesis Project (Final Semester)**
+**Contributor**: Sri Sai Rajesh
 
 🌟 About This Project
 
